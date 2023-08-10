@@ -154,9 +154,6 @@ function clearDisplay() {
   const secondaryDisplay = document.querySelector(".screen .secondary");
   primaryDisplay.innerText = "0";
   secondaryDisplay.innerText = "";
-  for (key in operationStartTemplate) {
-    operation[key] = operationStartTemplate[key];
-  }
   operation.isDecimalNumber = false;
   operation.firstOperand = null;
   operation.secondOperand = null;
