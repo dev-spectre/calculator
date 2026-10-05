@@ -34,6 +34,10 @@ Open `index.html` in a browser. No build step required.
     └── script.js        # Calculator logic
 ```
 
+
+## Screenshots
+
+![screenshot](screenshots/home.png)
 ## License
 
 MIT
